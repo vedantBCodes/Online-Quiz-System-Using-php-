@@ -117,7 +117,7 @@ $q12=mysqli_query($con,"SELECT score FROM history WHERE eid='$eid' AND email='$e
 $rowcount=mysqli_num_rows($q12);	
 if($rowcount == 0){
 	echo '<tr><td>'.$c++.'</td><td>'.$title.'</td><td>'.$total.'</td><td>'.$sahi*$total.'</td><td>'.$time.'&nbsp;min</td>
-	<td><b><a href="account.php?q=quiz&step=2&eid='.$eid.'&n=1&t='.$total.'" class="pull-right btn sub1" style="margin:0px;background:#99cc32"><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>&nbsp;<span class="title1"><b>Start</b></span></a></b></td></tr>';
+	// <td><b><a href="account.php?q=quiz&step=2&eid='.$eid.'&n=1&t='.$total.'" class="pull-right btn sub1" style="margin:0px;background:#99cc32"><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>&nbsp;<span class="title1"><b>Start</b></span></a></b></td></tr>';
 }
 else
 {
@@ -283,15 +283,6 @@ echo '
   </div>
 </div>
 
-<!-- Text input-->
-<div class="form-group">
-  <label class="col-md-12 control-label" for="tag"></label>  
-  <div class="col-md-12">
-  <input id="tag" name="tag" placeholder="Enter #tag which is used for searching" class="form-control input-md" type="text">
-    
-  </div>
-</div>
-
 
 <!-- Text input-->
 <div class="form-group">
@@ -418,11 +409,11 @@ echo '</table></div>';
 
 
 </div><!--container closed-->
-</div></div>
+</div></div></div>
 
  <!-- 2.Copyright section -->
 
- <div style="background-color:black;color:white; padding:7px 0px; margin-top:1px; position:absolute; bottom:0px;width:110vw; "> 
+ <div style="background-color:black;color:white; padding-top:7px; margin-top:1px; position:absolute; bottom:0px; width:110vw; "> 
       <h4 class="text-center copyrightLine">
      copyright&nbsp;<img src="image/copyrightIcon6.png" alt="" style="width:25px;"/>&nbsp;.&nbsp;Made with
      <img src="image/heartLogo.png" alt="" style="width:25px;" /> by vedant yeotikar.

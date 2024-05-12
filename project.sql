@@ -36,7 +36,7 @@ CREATE TABLE IF NOT EXISTS `admin` (
 --
 
 INSERT INTO `admin` (`email`, `password`) VALUES
-('sunnygkp10@gmail.com', '123456');
+('bichkundevedant97@gmial.com', 'V8530');
 
 -- --------------------------------------------------------
 
