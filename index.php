@@ -85,7 +85,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 </div>
 <hr style="border: 1px solid white; margin:5px; padding:0px;" />
 
-<div class="" style="background-image:url(image/demoBg.webp);background-size:cover; height:87vh;">
+<div class="" style="background-image:url(image/demoBg.webp);background-size:cover; height:78vh;">
 <div class="row">
 
 <div class="col-md-7"></div>
@@ -188,7 +188,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 </div><!--container end-->
 
 <!--Footer start-->
-<div class="row footer1" style="position:relative; bottom:65px;">
+<div class="row footer1" >
 <div class="col-md-3 box" style="margin-left:200px;">
 <a href="#" data-toggle="modal" data-target="#login" style="font-size:20px; color:white;">Admin Login</a></div>
 <div class="col-md-3 box">
@@ -258,7 +258,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 
   <!-- 2.Copyright section -->
 
-   <div style="background-color:black;color:white; padding:10px 0px; margin-top:1px;position:relative; bottom:65px;"> 
+   <div style="background-color:black;color:white; padding:10px 0px; margin-top:1px;width:110vw;"> 
       <h4 class="text-center copyrightLine">
      copyright&nbsp;<img src="image/copyrightIcon6.png" alt="" style="width:25px;"/>&nbsp;.&nbsp;Made with
      <img src="image/heartLogo.png" alt="" style="width:25px;" /> by vedant yeotikar.

@@ -126,22 +126,22 @@ else {
 </form>';
 }
 ?>
+<div style="width:200px; position :relative;
+bottom:70px;
+right:320px;
+rotate: -9deg;
+color:black;
+text-shadow:0.5px 0.5px 0.5px black;">
+  <p style="font-size:20px;">“We all need people who will give us feedback. <br> That's how we improve.” <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>-Bill Gates</b></p>
+</div>
 </div>
 <div class="col-md-3"></div></div>
 </div></div>
 </div>
 
-<div style="width:200px; position :relative;
-bottom:250px;
-left:85px;
-rotate: -9deg;
-text-shadow:0.5px 0.5px 0.5px black;">
-  <p style="font-size:20px;">“We all need people who will give us feedback. <br> That's how we improve.” <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>-Bill Gates</b></p>
-</div>
-
   <!-- 2.Copyright section -->
 
-  <div style="background-color:black;color:white; padding:10px 0px; margin-top:1px; position:absolute; bottom:0px;width:110vw; "> 
+  <div style="background-color:black;color:white; padding:10px 0px; margin-top:1px; position :relative; top:24px;width:110vw; "> 
       <h4 class="text-center copyrightLine">
      copyright&nbsp;<img src="image/copyrightIcon6.png" alt="" style="width:25px;"/>&nbsp;.&nbsp;Made with
      <img src="image/heartLogo.png" alt="" style="width:25px;" /> by vedant yeotikar.
